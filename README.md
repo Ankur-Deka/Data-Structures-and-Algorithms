@@ -1,2 +1,2 @@
 # Data-Structures-and-Algorithms
-Implementation of popular DS and Algo
+Implementation of popular Data Structures and Algorithms
