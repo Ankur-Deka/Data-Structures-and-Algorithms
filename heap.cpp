@@ -1,6 +1,11 @@
+/*
+Heap and Heap sort using array
+Author: Ankur - ankur.deka@iitg.ac.in
+Heap sort has O(n.log(n)) time complexity
+*/
+
 #include<math.h>
 #include<stdio.h>
-
 
 void enterChoice(int* choice)
 {
@@ -67,7 +72,6 @@ void convMaxHeap(int* ar, int len)
 
 int main()
 {
-	// int ar[100] = {10, 2, 9, 9, 7, 5, 6, 6, 3, 2, 1, -1};
 	int ar[100] = {1,3,4,8,7,6,9,4,2,1,9,-1};
 	int len, levels, choice, element;
 	for(len = 0; ar[len]!= -1; len++);
